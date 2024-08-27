@@ -1,0 +1,16 @@
+class A
+{
+  A()
+  {
+   System.out.println("Default Constructor");
+  }
+   A(int a)
+   {
+    System.out.println("value of a is" +a);
+   }
+    public static void main (String args[])
+    {
+     A obj = new A();
+     A obj1 = new A(10);
+    }
+ }    
