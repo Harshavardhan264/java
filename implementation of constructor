@@ -1,0 +1,16 @@
+class Const
+{
+String name;
+ Const(){
+ 
+ System.out.println("constructor");
+ name= "harsha";
+ }
+ public static void main(String args[])
+ {
+  
+  Const c = new Const();
+  
+  System.out.println(c.name);
+  }
+}
