@@ -1,0 +1,17 @@
+class Multi
+{
+ void multi(int a, int b)
+ {
+   System.out.println("Multiplication is "+(a*b));
+ }
+  void multi(int a,int b,int c)
+  {
+   System.out.println( "Multiplication is "+(a*b*c));
+  }
+   public static void main(String args[])
+   {
+    Multi m= new Multi();
+    m.multi (12,3);
+    m.multi (12,3,4);
+   }
+ }   
