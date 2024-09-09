@@ -1,0 +1,30 @@
+import java.util.Scanner;  
+class Point2 
+{ 
+int x; 
+int y; 
+Point2(int a, int b) 
+{ 
+x = a; 
+y = b; 
+} 
+void display() 
+{ 
+System.out.println("\n\n\t-----Printing the coordinates-----"); 
+System.out.println("\t\t\t" + x + "  " + y); 
+} 
+} 
+class pointDemo1 
+{ 
+public static void main(String args[]) 
+{ 
+int i,k; 
+Scanner s = new Scanner(System.in); 
+System.out.print("Enter int value for i : "); 
+i = s.nextInt(); 
+System.out.print("Enter int value for k : "); 
+k = s.nextInt();  
+Point2 p1 = new Point2(i,k); 
+p1.display(); 
+} 
+} 
