@@ -27,3 +27,10 @@ public class LargestOfThree {
         scanner.close();
     }
 }
+
+
+//output
+Enter the first largest number: 5
+Enter the second largest number: 4
+Enter the third largest number: 9
+The largest number is: 9
